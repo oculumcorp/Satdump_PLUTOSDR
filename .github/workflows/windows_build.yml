@@ -23,7 +23,7 @@ jobs:
 
       - name: Download SDRPlay API
         shell: powershell
-        run: curl https://files.altillimity.com/SDRPlay.zip -OutFile "D:\a\SatDump\sdrplay.zip"
+        run: curl "https://files.altillimity.com/SDRPlay.zip" -OutFile "D:\a\SatDump\sdrplay.zip"
 
       - name: Install SDRPlay API
         shell: powershell
