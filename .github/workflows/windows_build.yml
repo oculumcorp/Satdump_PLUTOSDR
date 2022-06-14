@@ -3,7 +3,7 @@ name: Windows Build
 on: [push]
 
 env:
-  # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
+  # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.) based on zeke800 method (I just need a commit for github to build :) )
   BUILD_TYPE: Release
 
 jobs:
